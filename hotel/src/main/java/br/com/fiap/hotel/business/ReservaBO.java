@@ -14,5 +14,4 @@ public class ReservaBO {
     public boolean validarCheckinCheckout (Reserva r) {
     return r.getCheckin().before(r.getCheckout());
     }
-	
 }
